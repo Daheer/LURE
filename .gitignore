@@ -1,0 +1,6 @@
+**.pth
+**.zip
+vicuna/
+cc_sbu_align/image/*
+cc_sbu_align/image_no_h_caption/*
+Miniconda3.sh
