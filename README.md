@@ -16,6 +16,20 @@
 ## Getting Started
 ### Installation
 
+**Install conda**
+
+```bash
+sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+
+curl -sL \
+  "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh" > \
+  "Miniconda3.sh"
+
+bash Miniconda3.sh
+
+source /home/ubuntu/miniconda3/bin/activate
+```
+
 **1. Prepare the code and the environment**
 
 Git clone our repository, creating a python environment and ativate it via the following command
@@ -35,6 +49,17 @@ Download the corresponding LLM weights from the following huggingface space via 
 |                                          Vicuna V0 13B                                           |
 :------------------------------------------------------------------------------------------------:
  [Download](https://huggingface.co/Vision-CAIR/vicuna/tree/main) 
+
+Setup git-lfs
+
+```bash
+sudo apt-get install git-lfs
+git lfs install
+```
+
+```bash
+git clone https://huggingface.co/Vision-CAIR/vicuna
+```
 
 The final weights would be in a single folder in a structure similar to the following:
 
