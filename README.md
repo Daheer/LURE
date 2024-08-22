@@ -127,6 +127,8 @@ python transform.py
 
 Rename `train2014` folder to `image` and move it to [dataset_train](dataset_train)
 
+⚠️ Verify that the dataset is the one shown in [minigpt4/configs/datasets/cc_sbu/align.yaml](minigpt4/configs/datasets/cc_sbu/align.yaml)
+
 **(Step 2)** Training
 
 To launch the second stage alignment, first specify the path to the initial checkpoint file in [train_configs/minigpt4_stage2_finetune.yaml](train_configs/minigpt4_stage2_finetune.yaml).
