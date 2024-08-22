@@ -2,4 +2,4 @@ datasets:
   cc_sbu_align:
     data_type: images
     build_info:
-      storage: /home/ubuntu/LURE/cc_sbu_align
+      storage: /home/ubuntu/LURE/dataset_train

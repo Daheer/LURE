@@ -125,8 +125,7 @@ Set the path to the unzipped folder in line 7 of [transform.py](transform.py), t
 python transform.py
 ```
 
-Replace the image folder in [cc_scu_align/image](cc_sbu_align/image) with your coco folder (rename train2014 -> image)
-
+Rename `train2014` folder to `image` and move it to [dataset_train](dataset_train)
 
 **(Step 2)** Training
 
